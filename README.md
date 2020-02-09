@@ -1,0 +1,14 @@
+### 环境要求
+* python2.7
+* PIL模块
+* apktool2.4
+* java8
+### 文件说明
+* apk文件夹，存放打完的包
+* app文件夹，反编译apk后的文件
+* icon文件夹，下载的图标
+* apk_source.csv(必须)，要打包的信息，第一列是序号，第二列是图标下载地址，第三列是app名
+* apk_packed.csv，打完包的信息，增加了一列打完包的apk的存放路径（相对）
+* app.apk(必须)，源apk
+* sign.keystore，签名，第一次会自动生成，不要删！！！
+* start.py，打包脚本
