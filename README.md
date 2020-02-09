@@ -1,3 +1,4 @@
+# apk批量重打包（修改图标和应用名）
 ### 环境要求
 * python2.7
 * PIL模块
@@ -12,3 +13,4 @@
 * app.apk(必须)，源apk
 * sign.keystore，签名，第一次会自动生成，不要删！！！
 * start.py，打包脚本
+* bg_run.py，能在后台稳定运行的shell脚本
